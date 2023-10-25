@@ -12,16 +12,16 @@
 <body>
   <div class="container my-5">
 
-    <form class="row gy-2 gx-3 align-items-center" >
+    <form method="POST" action="myform.php" class="row gy-2 gx-3 align-items-center" >
       
       <div class="col-12">
         <label for="parCen">Parola da censurare</label>
-        <input type="text" class="form-control" id="parCen" placeholder="...">
+        <input type="text" class="form-control" id="parCen" placeholder="..." name="censureWord">
       </div>
 
       <div class="col-12">
         <label for="parArea">Paragrafo</label>
-        <textarea class="form-control" placeholder="Scrivi il paragrafo" id="parArea"></textarea>
+        <textarea class="form-control" placeholder="Scrivi il paragrafo" id="parArea" name="text"></textarea>
       </div>
 
       <div class="col-auto">
